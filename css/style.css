@@ -48,6 +48,10 @@
     position: relative;
 }
 
+.second-image-product{
+    display: none;
+}
+
 /*-----------
    Img specs
 ------------*/
@@ -91,4 +95,16 @@ Product description
 .price{
     color: #eb0037;
     font-weight: bold;
+}
+
+/*-----------------
+Hover options
+------------------*/
+
+.product-box:hover .second-image-product{
+    display: block;
+}
+
+.product-box:hover .first-image-product{
+    display: none;
 }

@@ -48,8 +48,13 @@
     position: relative;
 }
 
+.first-image-product{
+    display: block;
+}
+
 .second-image-product{
     display: none;
+    transition: 0.3s;
 }
 
 /*-----------

@@ -47,6 +47,9 @@
     position: relative;
 }
 
+/*-----------
+    Img specs
+------------*/
 .product-info{
     color: white;
     position: absolute;
@@ -64,7 +67,7 @@
 
 .discount, .sostenibilità{
     padding: 5px 10px;
-    font-weight: 700;
+    font-weight: bold;
 }
 
 .discount{
@@ -74,4 +77,17 @@
 
 .sostenibilità{
     background-color: #00875a;
+}
+
+/*-----------------
+Product description
+------------------*/
+
+.product-description h4 {
+    text-transform: uppercase;
+}
+
+.price{
+    color: #eb0037;
+    font-weight: bold;
 }

@@ -51,6 +51,15 @@
     background-color: red;
     color: white;
     position: absolute;
-    bottom: 40px;
+    bottom: 30px;
     padding: 5px;
 }    
+
+.add-wishlist{
+    background-color: white;
+    font-size: 30px;
+    padding: 5px 10px;
+    position: absolute;
+    top: 30px;
+    right: 0px;
+}

@@ -47,13 +47,11 @@
     position: relative;
 }
 
-.discount{
-    background-color: red;
+.product-info{
     color: white;
     position: absolute;
     bottom: 30px;
-    padding: 5px;
-}    
+} 
 
 .add-wishlist{
     background-color: white;
@@ -62,4 +60,18 @@
     position: absolute;
     top: 30px;
     right: 0px;
+}
+
+.discount, .sostenibilità{
+    padding: 5px 10px;
+    font-weight: 700;
+}
+
+.discount{
+    background-color: #eb0037;
+    margin-right: 5px;
+}
+
+.sostenibilità{
+    background-color: #00875a;
 }

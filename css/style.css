@@ -22,17 +22,35 @@
 .container{
     margin: auto;
     max-width: 1080px;
+    font-family: 'Roboto', sans-serif;
 }
 
+
+/*-----------
+    Common
+------------*/
 .product-box{
    width: calc(100% / 3 - 10px );
    float: left;
    margin: 0 5px;
 }
+
 .product-image img{
     width: 100%;
 }
 
 .product-row{
-    
+    margin-top: 20px;
 }
+
+.product-image{
+    position: relative;
+}
+
+.discount{
+    background-color: red;
+    color: white;
+    position: absolute;
+    bottom: 40px;
+    padding: 5px;
+}    

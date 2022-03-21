@@ -6,3 +6,33 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*-----------
+    Clearfix
+------------*/
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*-----------
+    Container
+------------*/
+.container{
+    margin: auto;
+    max-width: 1080px;
+}
+
+.product-box{
+   width: calc(100% / 3 - 10px );
+   float: left;
+   margin: 0 5px;
+}
+.product-image img{
+    width: 100%;
+}
+
+.product-row{
+    
+}
